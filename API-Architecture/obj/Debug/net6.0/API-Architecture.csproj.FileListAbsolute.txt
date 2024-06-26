@@ -18,6 +18,7 @@
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.Identity.Client.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
@@ -26,6 +27,15 @@
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Serilog.Sinks.File.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/sh1riyev/Projects/API-Architecture/API-Architecture/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll

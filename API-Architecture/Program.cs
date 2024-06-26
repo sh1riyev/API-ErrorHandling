@@ -2,6 +2,8 @@
 using Repository.Data;
 using Repository;
 using Service;
+using Serilog;
+using API_Architecture.Middelware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,8 +21,14 @@ builder.Services.AddDbContext<AppDbContext>(context =>
     opt => opt.MigrationsAssembly("Repository"));
 });
 
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration).CreateLogger();
+
 builder.Services.AddRepositoryLayer();
 builder.Services.AddServiceLayer();
+builder.Host.UseSerilog();
+
+builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
 
 var app = builder.Build();
 
@@ -30,6 +38,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseSerilogRequestLogging(); 
 
 app.UseHttpsRedirection();
 

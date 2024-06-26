@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{80B7813E-F8FF-49C1-B453-BA5189F66442}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.API-Architecture PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sh1riyev/Projects/API-Architecture/API-Architecture/Controllers/CountryController.cs" relfile="API-Architecture/Controllers/CountryController.cs" line="88" column="1" />
+      <Breakpoint file="/Users/sh1riyev/Projects/API-Architecture/API-Architecture/Controllers/CityController.cs" relfile="API-Architecture/Controllers/CityController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/sh1riyev/Projects/API-Architecture/API-Architecture/Controllers/CityController.cs" relfile="API-Architecture/Controllers/CityController.cs" line="61" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="API-Architecture/Program.cs">
+    <Files>
+      <File FileName="API-Architecture/Controllers/CityController.cs" Line="94" Column="51" />
+      <File FileName="Service/DTOs/Admin/Cities/CityDto.cs" Line="13" Column="1" />
+      <File FileName="API-Architecture/Program.cs" Line="29" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="API-Architecture" expanded="True" selected="True">
+            <Node name="API-Architecture">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Repository">
+              <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="Service">
+              <Node name="DTOs" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Cities" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -2,6 +2,7 @@
 using AutoMapper;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using Service.DTOs.Admin.Cities;
 using Service.Services.Interfaces;
 
@@ -46,8 +47,9 @@ namespace API_Architecture.Controllers
 			try
 			{
 				 var cities = await _cityService.GetAll(null,"Country");
-				 return Ok(_mapper.Map<List<CityDto>>(cities.OrderBy(m=>m.CreateDate)));
-			}
+                Log.Information("Getall citites is working");
+                return Ok(_mapper.Map<List<CityDto>>(cities.OrderBy(m=>m.CreateDate)));
+            }
 			catch (Exception ex)
 			{
                 return StatusCode(500, new { Message = "Internal Server Error", Error = ex.Message });
@@ -74,7 +76,7 @@ namespace API_Architecture.Controllers
             }
 		}
 
-		[HttpDelete("{id}")]
+		[HttpGet("{id}")]
 		public async Task<IActionResult> GetById(int? id)
 		{
 			try
